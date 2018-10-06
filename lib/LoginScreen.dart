@@ -9,6 +9,7 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   final textController = TextEditingController();
 
+
   @override
   void initState() {
     // TODO: implement initState
@@ -101,8 +102,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   left:129.0,
                   bottom: 90.0 ,
                   child:
+
                   RaisedButton(
-                    
+
                     elevation: 20.0,
                     onPressed: (){
                       Navigator.of(context)
@@ -111,7 +113,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               builder: (context)=>PortFolioScreen()
                           )
                       );
-                      
+
                     },
                     padding: EdgeInsets.symmetric(vertical: 14.0, horizontal: 40.0),
                       color: Color(0xFFFFA726),
